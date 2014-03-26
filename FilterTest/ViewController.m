@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)gotoSepia:(id)sender
+{
+    [self performSegueWithIdentifier:@"gotoSepia" sender:self];
+}
 @end

@@ -21,6 +21,13 @@
 		59B42D0018E24B40001B1A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B42CE218E24B40001B1A1A /* UIKit.framework */; };
 		59B42D0818E24B40001B1A1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B42D0618E24B40001B1A1A /* InfoPlist.strings */; };
 		59B42D0A18E24B41001B1A1A /* FilterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D0918E24B41001B1A1A /* FilterTestTests.m */; };
+		59B42D1518E24C65001B1A1A /* SepiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D1418E24C65001B1A1A /* SepiaViewController.m */; };
+		59B42D1818E24DFD001B1A1A /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59B42D1718E24DFD001B1A1A /* demo.jpg */; };
+		59B42D2518E24E52001B1A1A /* TTK_Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D1B18E24E52001B1A1A /* TTK_Camera.m */; };
+		59B42D2618E24E52001B1A1A /* TTK_EditImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D1D18E24E52001B1A1A /* TTK_EditImage.m */; };
+		59B42D2718E24E52001B1A1A /* TTK_StampRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D2018E24E52001B1A1A /* TTK_StampRotateView.m */; };
+		59B42D2818E24E52001B1A1A /* TTK_StampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D2218E24E52001B1A1A /* TTK_StampView.m */; };
+		59B42D2918E24E52001B1A1A /* TTK_Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B42D2418E24E52001B1A1A /* TTK_Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,20 @@
 		59B42D0518E24B40001B1A1A /* FilterTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterTestTests-Info.plist"; sourceTree = "<group>"; };
 		59B42D0718E24B40001B1A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59B42D0918E24B41001B1A1A /* FilterTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterTestTests.m; sourceTree = "<group>"; };
+		59B42D1318E24C65001B1A1A /* SepiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepiaViewController.h; sourceTree = "<group>"; };
+		59B42D1418E24C65001B1A1A /* SepiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepiaViewController.m; sourceTree = "<group>"; };
+		59B42D1718E24DFD001B1A1A /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		59B42D1A18E24E52001B1A1A /* TTK_Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_Camera.h; sourceTree = "<group>"; };
+		59B42D1B18E24E52001B1A1A /* TTK_Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTK_Camera.m; sourceTree = "<group>"; };
+		59B42D1C18E24E52001B1A1A /* TTK_EditImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_EditImage.h; sourceTree = "<group>"; };
+		59B42D1D18E24E52001B1A1A /* TTK_EditImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTK_EditImage.m; sourceTree = "<group>"; };
+		59B42D1E18E24E52001B1A1A /* TTK_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_Macro.h; sourceTree = "<group>"; };
+		59B42D1F18E24E52001B1A1A /* TTK_StampRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_StampRotateView.h; sourceTree = "<group>"; };
+		59B42D2018E24E52001B1A1A /* TTK_StampRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTK_StampRotateView.m; sourceTree = "<group>"; };
+		59B42D2118E24E52001B1A1A /* TTK_StampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_StampView.h; sourceTree = "<group>"; };
+		59B42D2218E24E52001B1A1A /* TTK_StampView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTK_StampView.m; sourceTree = "<group>"; };
+		59B42D2318E24E52001B1A1A /* TTK_Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTK_Utility.h; sourceTree = "<group>"; };
+		59B42D2418E24E52001B1A1A /* TTK_Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTK_Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +133,15 @@
 		59B42CE418E24B40001B1A1A /* FilterTest */ = {
 			isa = PBXGroup;
 			children = (
+				59B42D1918E24E52001B1A1A /* TTKLibrary */,
+				59B42D1618E24DFD001B1A1A /* Resources */,
 				59B42CED18E24B40001B1A1A /* AppDelegate.h */,
 				59B42CEE18E24B40001B1A1A /* AppDelegate.m */,
 				59B42CF018E24B40001B1A1A /* Main.storyboard */,
 				59B42CF318E24B40001B1A1A /* ViewController.h */,
 				59B42CF418E24B40001B1A1A /* ViewController.m */,
+				59B42D1318E24C65001B1A1A /* SepiaViewController.h */,
+				59B42D1418E24C65001B1A1A /* SepiaViewController.m */,
 				59B42CF618E24B40001B1A1A /* Images.xcassets */,
 				59B42CE518E24B40001B1A1A /* Supporting Files */,
 			);
@@ -150,6 +175,33 @@
 				59B42D0618E24B40001B1A1A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59B42D1618E24DFD001B1A1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59B42D1718E24DFD001B1A1A /* demo.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59B42D1918E24E52001B1A1A /* TTKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				59B42D1A18E24E52001B1A1A /* TTK_Camera.h */,
+				59B42D1B18E24E52001B1A1A /* TTK_Camera.m */,
+				59B42D1C18E24E52001B1A1A /* TTK_EditImage.h */,
+				59B42D1D18E24E52001B1A1A /* TTK_EditImage.m */,
+				59B42D1E18E24E52001B1A1A /* TTK_Macro.h */,
+				59B42D1F18E24E52001B1A1A /* TTK_StampRotateView.h */,
+				59B42D2018E24E52001B1A1A /* TTK_StampRotateView.m */,
+				59B42D2118E24E52001B1A1A /* TTK_StampView.h */,
+				59B42D2218E24E52001B1A1A /* TTK_StampView.m */,
+				59B42D2318E24E52001B1A1A /* TTK_Utility.h */,
+				59B42D2418E24E52001B1A1A /* TTK_Utility.m */,
+			);
+			name = TTKLibrary;
+			path = ../../../git/StampCamera/illustCamera/illustCamera/TTKLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B42D1818E24DFD001B1A1A /* demo.jpg in Resources */,
 				59B42CF718E24B40001B1A1A /* Images.xcassets in Resources */,
 				59B42CE918E24B40001B1A1A /* InfoPlist.strings in Resources */,
 				59B42CF218E24B40001B1A1A /* Main.storyboard in Resources */,
@@ -250,8 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B42CF518E24B40001B1A1A /* ViewController.m in Sources */,
+				59B42D2718E24E52001B1A1A /* TTK_StampRotateView.m in Sources */,
+				59B42D1518E24C65001B1A1A /* SepiaViewController.m in Sources */,
+				59B42D2918E24E52001B1A1A /* TTK_Utility.m in Sources */,
 				59B42CEF18E24B40001B1A1A /* AppDelegate.m in Sources */,
+				59B42D2818E24E52001B1A1A /* TTK_StampView.m in Sources */,
 				59B42CEB18E24B40001B1A1A /* main.m in Sources */,
+				59B42D2518E24E52001B1A1A /* TTK_Camera.m in Sources */,
+				59B42D2618E24E52001B1A1A /* TTK_EditImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
