@@ -7,7 +7,7 @@
 //
 
 #import "SepiaViewController.h"
-#import "TTK_EditImage.h"
+#import "TTKEditImage.h"
 
 @interface SepiaViewController ()
 @property (nonatomic, strong) UIImage *originalImage;
@@ -62,7 +62,7 @@
     CGFloat value = _slider.value;
     _sliderValue.text = [NSString stringWithFormat:@"%f", value];
     
-    UIImage *filteredImage = [TTK_EditImage imageFilterSepia:_originalImage WithIntensity:value];
+    UIImage *filteredImage = [TTKEditImage imageFilterSepia:_originalImage WithIntensity:value];
     [_imageView setImage:filteredImage];
 }
 
