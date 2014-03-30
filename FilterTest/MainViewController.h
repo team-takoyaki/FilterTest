@@ -18,7 +18,7 @@
 - (IBAction)sepiaChangedCheck:(id)sender;
 - (IBAction)sepiaChangedValue:(id)sender;
 
-// GrayScale
+// Gray scale
 @property (strong, nonatomic) IBOutlet UISlider *grayScaleSlider;
 @property (strong, nonatomic) IBOutlet UILabel *grayScaleSliderLabel;
 - (IBAction)grayScaleChangedCheck:(id)sender;
@@ -26,6 +26,18 @@
 @property (strong, nonatomic) IBOutlet UISlider *grayScaleColorSlider;
 @property (strong, nonatomic) IBOutlet UILabel *grayScaleColorSliderLabel;
 - (IBAction)grayScaleColorChangedValue:(id)sender;
+
+// Color control
+@property (strong, nonatomic) IBOutlet UISlider *colorControlSaturationSlider;
+@property (strong, nonatomic) IBOutlet UILabel *colorControlSaturationLabel;
+@property (strong, nonatomic) IBOutlet UISlider *colorControlBrightnessSlider;
+@property (strong, nonatomic) IBOutlet UILabel *colorControlBrightnessLabel;
+@property (strong, nonatomic) IBOutlet UISlider *colorControlContrastSlider;
+@property (strong, nonatomic) IBOutlet UILabel *colorControlContrastLabel;
+- (IBAction)colorControlChangedCheck:(id)sender;
+- (IBAction)colorControlSaturationChangedValue:(id)sender;
+- (IBAction)colorControlBrightnessChangedValue:(id)sender;
+- (IBAction)colorControlContrastChangedValue:(id)sender;
 
 // ScrollView関連
 @property (strong, nonatomic) IBOutlet UIView *contentView;
