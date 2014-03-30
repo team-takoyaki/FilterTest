@@ -22,6 +22,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    // Storyboardから削除してScrollViewにつける
+    [_contentView removeFromSuperview];
+    [_scrollView addSubview:_contentView];
+    
+    // scrollContentViewのサイズとScrollViewのContentSizeのサイズを紐づける
+    CGSize contentViewSize = _contentView.frame.size;
+    _contentView.frame = CGRectMake(0, 0, contentViewSize.width,contentViewSize.height);
+    _scrollView.contentSize = contentViewSize;
+
     self.originalImage = _imageView.image;
     NSAssert(_originalImage != nil, @"画像の取得に失敗しました");
     
@@ -74,6 +83,11 @@
     [self filterImage];
 }
 
+- (IBAction)grayScaleColorChangedValue:(id)sender
+{
+    [self filterImage];
+}
+
 - (void)filterImage
 {
     CGFloat sepiaValue = _sepiaSlider.value;
@@ -86,8 +100,10 @@
     
     CGFloat grayScaleValue = _grayScaleSlider.value;
     _grayScaleSliderLabel.text = [NSString stringWithFormat:@"%f", grayScaleValue];
+    CGFloat grayScaleColorValue = _grayScaleColorSlider.value;
+    _grayScaleColorSliderLabel.text = [NSString stringWithFormat:@"%f", grayScaleColorValue];
     if (_isGrayScaleEnabled) {
-        filteredImage = [TTKEditImage imageFilterGrayScale:filteredImage withIntensity:grayScaleValue];
+        filteredImage = [TTKEditImage imageFilterGrayScale:filteredImage withIntensity:grayScaleValue andSingleColorRate:grayScaleColorValue];
     }
     
     self.imageView.image = filteredImage;
